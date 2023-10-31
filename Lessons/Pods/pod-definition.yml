@@ -4,8 +4,10 @@ metadata:
   name: myapp-pod
   labels:
     app: myapp
-    type: front-end
+    type: frontend
 spec:
   containers:
     - name: nginx-container
       image: nginx
+    - name: busybox
+      image: busybox
