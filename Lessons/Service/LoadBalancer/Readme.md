@@ -1,0 +1,1 @@
+Service of this type is only suppported if the Cloud provider supports it

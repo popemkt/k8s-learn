@@ -1,0 +1,3 @@
+[submodule "Lessons/SampleApp"]
+	path = Lessons/SampleApp
+	url = https://github.com/kodekloudhub/example-voting-app
