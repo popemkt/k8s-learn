@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+    type: frontend
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx
+      ports:
+        - containerPort: 80
+          name: http
+      env:
+        - name: KEY
+          valueFrom:
+            configMapKeyRef:
+              key: KEY
+              name: app-config-individual
+      envFrom:
+        - configMapRef:
+            name: app-config
