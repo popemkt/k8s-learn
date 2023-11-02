@@ -1,3 +1,3 @@
-[submodule "Lessons/SampleApp"]
+[submodule "Lessons/0_SampleApp"]
 	path = Lessons/0_SampleApp
 	url = https://github.com/popemkt/example-voting-app
