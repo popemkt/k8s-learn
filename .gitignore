@@ -4,3 +4,7 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+# VM Images
+*.img
+*.qcow2
+*.xml
