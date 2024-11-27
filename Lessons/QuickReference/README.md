@@ -2,6 +2,16 @@
 
 This guide provides quick commands for generating base YAML templates for various Kubernetes resources using `kubectl`.
 
+## Setting up kubectl alias
+```bash
+# Add this to your ~/.bashrc or ~/.zshrc
+alias k='kubectl'
+
+# Then either restart your terminal or run
+source ~/.bashrc  # or source ~/.zshrc
+```
+Note: All commands below can use `k` instead of `kubectl` after setting up the alias.
+
 ## Basic Syntax
 ```bash
 kubectl create <resource> <name> [flags] --dry-run=client -o yaml
