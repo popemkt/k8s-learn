@@ -1,8 +1,9 @@
-## General tricks
+# Extra resource references
 
-- Use `kubectl get pods -o wide --show-labels` to get the IP of the pod
-- Use `kubectl get {{resource}} --watch` to watch the status of the resource
+## Guide, environment prep, etc
+https://medium.com/@shafath.001/mastering-ckad-a-journey-through-the-certified-kubernetes-application-developer-exam-500e8e0faa3c
 
-## TODO
+## CKAD exercises
+https://github.com/dgkanatsios/CKAD-exercises/blob/main/a.core_concepts.md
 
-test out initContainers
+https://www.youtube.com/watch?v=k9yk5DYZCJU&list=PLfeid9nyFRy96tGhBXeSvHlSCEXyc4wwo

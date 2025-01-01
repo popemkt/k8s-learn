@@ -4,6 +4,6 @@
 
 [ ] Go through the Quick reference
 
-[ ] CKAD-focused topics and exercises to cover
+[ ] [CKAD](CKAD.md)
 
 [ ] test out initContainers
